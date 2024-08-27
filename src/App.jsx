@@ -1,14 +1,17 @@
 import React from "react";
 import "./index.css";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import HomeCards from "./components/HomeCards";
+import JobListing from "./components/JobListing";
 
 function App() {
   return (
     <>
-      <div className="App">
-        <header className="bg-blue-500 text-white p-4">
-          <h1 className="text-xl">Welcome to React with Tailwind CSS!</h1>
-        </header>
-      </div>
+      <Navbar />
+      <Hero />
+      <HomeCards />
+      <JobListing />
     </>
   );
 }
